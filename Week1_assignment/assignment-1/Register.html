@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Register</title>
+</head>
+<body>
+    <center><b style="color: red;">Register</b></center>
+    <form>
+        <table>
+
+            <tr>
+                <td>First Name</td>
+                <td><input type="text" placeholder="Enter your first name" name=""></td>
+            </tr>
+
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" placeholder="Enter your last name" name=""></td>
+            </tr>
+
+            <tr>
+                <td>Email</td>
+                <td><input type="mail" placeholder="Type your email" name=""></td>
+            </tr>
+
+            <tr>
+                <td>Password</td>
+                <td><input type="password" placeholder="Enter your password" name=""></td>
+            </tr>
+
+            <tr>
+                <td>Confirm Password</td>
+                <td><input type="password" placeholder="confirm your password" name=""></td>
+            </tr>
+
+            <tr>
+                <td>Birth Data</td>
+                <td><input type="date" name=""></td>
+            </tr>
+
+            <tr>
+                <td>Country</td>
+                <td>
+
+                    <select>
+                        <option value="">Egypt</option>
+                        <option value="">Cairo</option>
+                        <option value="">Banha</option>
+                    </select>
+                </td>
+            </tr>
+            
+        </table>
+    </form>
+    <fieldset>
+        <legend> Gender </legend>
+        
+            <input type="radio" name="Gender"> Male 
+            <input type="radio" name="Gender"> Female 
+        
+    </fieldset>
+    <form>
+        <table>
+
+            <tr>
+                <td>Profile Picture</td>
+                <td><input type="file" placeholder="" name=""></td>
+            </tr>
+        </table>
+    </form>
+
+    <fieldset>
+        <legend> interests </legend>
+        
+            <input type="checkbox" name="Checkbox"> Programming 
+            <input type="checkbox" name="Checkbox"> Reading
+            <input type="checkbox" name="Checkbox"> Swimming
+            <input type="checkbox" name="Checkbox"> Travel
+        
+    </fieldset>
+    <div>
+        <form action="">
+            <label>Write About yourself</label> <br>
+            <textarea name="" id="" placeholder="write a summary about yourself" cols="55" rows="6"></textarea>
+        </form>
+    </div>
+    <input type="checkbox" name="Checkbox"> I agree to terms and conditions 
+    <center>
+        <a href="Thank-You.html"> <input type="submit" value="submit"></a>
+        <input type="reset" value="reset">
+    </center>
+</body>
+</html>
